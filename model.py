@@ -3,6 +3,7 @@ import pickle
 import pandas as pd
 
 movies_data=pickle.load(open('moviesmodel.pkl','rb'))
+similarity=pickle.load(open('similarity.pkl','rb'))
 
 import difflib
 def recommend(movie_name):
