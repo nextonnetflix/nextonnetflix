@@ -17,7 +17,7 @@ desclist = desc.values.tolist()
 keylist = []
 print(desclist)
 
-!pip install rake-nltk
+#!pip install rake-nltk
 
 from rake_nltk import Rake
 
